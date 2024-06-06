@@ -1,0 +1,20 @@
+{
+    "restaurant": "Deepak's Restaurant",
+    "items": [
+        {
+            "name": "Pizza",
+            "price": "$10",
+            "image": "images/pizza.jpg"
+        },
+        {
+            "name": "Burger",
+            "price": "$8",
+            "image": "images/pizza.jpg"
+        },
+        {
+            "name": "Pasta",
+            "price": "$12",
+            "image": "images/pizza.jpg"
+        }
+    ]
+}
