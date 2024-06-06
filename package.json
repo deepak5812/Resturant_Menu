@@ -1,9 +1,29 @@
+// {
+//   "name": "qr-menu-scanner",
+//   "version": "1.0.0",
+//   "main": "server.js",
+//   "scripts": {
+//     "start": "node server.js"
+//   },
+//   "keywords": [],
+//   "author": "",
+//   "license": "ISC",
+//   "description": "A simple restaurant menu application",
+//   "dependencies": {
+//     "express": "^4.19.2",
+//     "html5-qrcode": "^2.3.8"
+//   },
+//   "engines": {
+//     "node": ">=14.0.0"
+//   }
+// }
 {
   "name": "qr-menu-scanner",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "functions/server.js",
   "scripts": {
-    "start": "node server.js"
+    "build": "echo 'No build necessary for this project'",
+    "start": "node functions/server.js"
   },
   "keywords": [],
   "author": "",
@@ -11,7 +31,8 @@
   "description": "A simple restaurant menu application",
   "dependencies": {
     "express": "^4.19.2",
-    "html5-qrcode": "^2.3.8"
+    "html5-qrcode": "^2.3.8",
+    "http-proxy-middleware": "^1.0.6"
   },
   "engines": {
     "node": ">=14.0.0"
